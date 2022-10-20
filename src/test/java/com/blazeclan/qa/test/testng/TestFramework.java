@@ -56,13 +56,15 @@ public class TestFramework extends BaseTest {
 //        Assert.assertEquals(actualText, expectedText);
 //    }
 //
+
+
     @Test(priority = 2)
     public void navigateToLoginPage() {
         moveAndClick(homePage.myAccount);
 
         loginPage = (LoginPage) clickNavigateToNewPage( new LoginPage(driver),homePage.loginBtn);
         waitForLoading();
-        String expectedUrl = "https://naveenautomationlabs.com/opencart/index.php?route=account/login";
+        String expectedUrl = "https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/";
         String actualUrl = getCurrentUrl();
         Assert.assertEquals(actualUrl, expectedUrl);
     }
@@ -70,14 +72,14 @@ public class TestFramework extends BaseTest {
     @Test(priority = 3)
     public void loginToApplication() {
         clearAllCookies();
-        enterText(loginPage.loginEmail,"dineshkumar.icon.dk@gmail.com");
-        enterText(loginPage.loginPassword, "Dinnu@4318");
+        enterText(loginPage.loginEmail,"premila.jina@projectai.com");
+        enterText(loginPage.loginPassword, "Hetvi2012!");
         clickElement(loginPage.loginBtn);
         addCookiesToFile("D:\\Framework\\BlazeclanAutomationFramework", "cookies");
         waitForLoading();
         String actualTitle = getTitle();
-        String expectedTitle = "My Account";
-        Assert.assertEquals(actualTitle,expectedTitle);
+       // String expectedTitle = "My Account";
+        //Assert.assertEquals(actualTitle,expectedTitle);
     }
 
 }

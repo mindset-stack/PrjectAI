@@ -45,3 +45,61 @@ Session ID: 5a76ccf90cf75eb57c146418a9cbe2bd
 [INFO ] 2022-10-20 15:15:04.603 [main] Log - Click on element: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //input[@value='Login']]
 [ERROR] 2022-10-20 15:15:04.678 [main] Log - loginToApplication Test is failed
 [INFO ] 2022-10-20 15:15:06.378 [main] Log - I am in onFinish method testng
+[INFO ] 2022-10-20 18:20:35.417 [main] Log - chrome browser is selected
+[INFO ] 2022-10-20 18:20:35.945 [main] Log - Open chrome browser
+[INFO ] 2022-10-20 18:20:44.005 [main] Log - Open the urlhttps://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
+[INFO ] 2022-10-20 18:20:44.194 [main] Log - navigateToLoginPage test is starting.
+[ERROR] 2022-10-20 18:20:54.293 [main] Log - java.lang.reflect.InvocationTargetException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'BCT-LTP-G1007', ip: '10.30.11.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [857450b1d732e22783470fab37cf1484, actions {actions=[org.openqa.selenium.interactions.Sequence@1860a7a1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\VIJAY~1.SAN\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63981/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 857450b1d732e22783470fab37cf1484
+[ERROR] 2022-10-20 18:21:14.392 [main] Log - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]' (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 2022-10-20 18:21:24.412 [main] Log - Fail to clicked on Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
+[INFO ] 2022-10-20 18:21:34.438 [main] Log - Clicked on element : Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
+[INFO ] 2022-10-20 18:21:34.588 [main] Log - navigateToLoginPage Test is passed
+[INFO ] 2022-10-20 18:21:34.588 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null 70e70b0f-0f98-4d0e-83ab-08a8ecb6a806  []
+[INFO ] 2022-10-20 18:21:34.762 [main] Log - loginToApplication test is starting.
+[INFO ] 2022-10-20 18:21:34.777 [main] Log - deleted all cookies
+[INFO ] 2022-10-20 18:21:34.838 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (857450b1d732e22783470fab37cf1484)] -> xpath: //input[@id='id_username']] is cleared
+[INFO ] 2022-10-20 18:21:34.887 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (857450b1d732e22783470fab37cf1484)] -> xpath: //input[@id='id_username']]
+[INFO ] 2022-10-20 18:21:34.959 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (857450b1d732e22783470fab37cf1484)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
+[INFO ] 2022-10-20 18:21:35.006 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (857450b1d732e22783470fab37cf1484)] -> xpath: //input[@id='id_password']] is cleared
+[INFO ] 2022-10-20 18:21:35.060 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (857450b1d732e22783470fab37cf1484)] -> xpath: //input[@id='id_password']]
+[INFO ] 2022-10-20 18:21:35.112 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (857450b1d732e22783470fab37cf1484)] -> xpath: //input[@id='id_password']] :Hetvi2012!
+[INFO ] 2022-10-20 18:21:35.159 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (857450b1d732e22783470fab37cf1484)] -> xpath: //body/div[@id='container']/div[@id='content']/div[1]/form[1]/div[3]/input[1]] is visible
+[INFO ] 2022-10-20 18:21:37.470 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //body/div[@id='container']/div[@id='content']/div[1]/form[1]/div[3]/input[1]'
+[INFO ] 2022-10-20 18:21:37.508 [main] Log - loginToApplication Test is passed
+[INFO ] 2022-10-20 18:21:37.508 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null fbe9239d-d5ea-4f66-972c-3d84dfa1d876  []
+[INFO ] 2022-10-20 18:21:38.669 [main] Log - I am in onFinish method testng
+[INFO ] 2022-10-20 18:25:30.242 [main] Log - chrome browser is selected
+[INFO ] 2022-10-20 18:25:30.487 [main] Log - Open chrome browser
+[INFO ] 2022-10-20 18:25:33.485 [main] Log - Open the urlhttps://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
+[INFO ] 2022-10-20 18:25:33.668 [main] Log - navigateToLoginPage test is starting.
+[ERROR] 2022-10-20 18:25:43.768 [main] Log - java.lang.reflect.InvocationTargetException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'BCT-LTP-G1007', ip: '10.30.11.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d717cc81c79149d034aef5527550d80f, actions {actions=[org.openqa.selenium.interactions.Sequence@3b0c3951]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\VIJAY~1.SAN\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64312/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d717cc81c79149d034aef5527550d80f
+[ERROR] 2022-10-20 18:26:03.858 [main] Log - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]' (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 2022-10-20 18:26:13.910 [main] Log - Fail to clicked on Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
+[INFO ] 2022-10-20 18:26:23.918 [main] Log - Clicked on element : Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
+[INFO ] 2022-10-20 18:26:23.992 [main] Log - navigateToLoginPage Test is passed
+[INFO ] 2022-10-20 18:26:23.992 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null ee76a731-a550-4e96-97dc-08441b17aaa5  []
+[INFO ] 2022-10-20 18:26:24.136 [main] Log - loginToApplication test is starting.
+[INFO ] 2022-10-20 18:26:24.154 [main] Log - deleted all cookies
+[INFO ] 2022-10-20 18:26:24.200 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_username']] is cleared
+[INFO ] 2022-10-20 18:26:24.239 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_username']]
+[INFO ] 2022-10-20 18:26:24.296 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
+[INFO ] 2022-10-20 18:26:24.331 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_password']] is cleared
+[INFO ] 2022-10-20 18:26:24.366 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_password']]
+[INFO ] 2022-10-20 18:26:24.413 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_password']] :Hetvi2012!
+[INFO ] 2022-10-20 18:26:24.454 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //body/div[@id='container']/div[@id='content']/div[1]/form[1]/div[3]/input[1]] is visible
+[INFO ] 2022-10-20 18:26:27.123 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //body/div[@id='container']/div[@id='content']/div[1]/form[1]/div[3]/input[1]'
+[INFO ] 2022-10-20 18:26:27.150 [main] Log - loginToApplication Test is passed
+[INFO ] 2022-10-20 18:26:27.150 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null a2c3a7a7-283f-4e4e-8664-e40b91fb683a  []
+[INFO ] 2022-10-20 18:26:28.185 [main] Log - I am in onFinish method testng

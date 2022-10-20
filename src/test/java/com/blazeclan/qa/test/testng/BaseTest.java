@@ -15,7 +15,8 @@ public class BaseTest extends CommonFunctions {
     protected LoginPage loginPage;
     @BeforeTest
     public void setUp() {
-        invokeApplicationURL(init_properties(IConstants.TEST_CONFIG_PATH).getProperty("BrowserName"), init_properties(IConstants.TEST_CONFIG_PATH).getProperty("Url"));
+        invokeApplicationURL(init_properties(IConstants.TEST_CONFIG_PATH).getProperty("BrowserName"),
+                init_properties(IConstants.TEST_CONFIG_PATH).getProperty("Url"));
         homePage = new HomePage(driver);
     }
 

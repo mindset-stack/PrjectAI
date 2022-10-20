@@ -1,7 +1,7 @@
 /**
- * @author Dinesh Kumar Peddakotla
+ * @author Vijay Sankpal
  * @role QA Engineer
- * @since 27/06/2022
+ * @since 21/10/2022
  */
 
 package com.blazeclan.qa.base;

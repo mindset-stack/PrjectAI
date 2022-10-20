@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Demo Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Oct 20, 2022 03:14:53 pm</span></a>
+<a href="#"><span class="badge badge-primary">Oct 20, 2022 06:25:30 pm</span></a>
 </li>
 </ul>
 </div>
@@ -67,8 +67,6 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
-<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -83,7 +81,7 @@
           <div class="test-detail">
             <p class="name">navigateToLoginPage</p>
             <p class="text-sm">
-              <span>3:14:58 pm</span> / <span>00:00:01:733</span>
+              <span>6:25:33 pm</span> / <span>00:00:50:465</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -92,9 +90,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">navigateToLoginPage</h5>
-<span class='badge badge-success'>10.20.2022 3:14:58 pm</span>
-<span class='badge badge-danger'>10.20.2022 3:14:59 pm</span>
-<span class='badge badge-default'>00:00:01:733</span>
+<span class='badge badge-success'>10.20.2022 6:25:33 pm</span>
+<span class='badge badge-danger'>10.20.2022 6:26:24 pm</span>
+<span class='badge badge-default'>00:00:50:465</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -107,60 +105,66 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:14:58 pm</td>
+        <td>6:25:43 pm</td>
         <td>
-          move to the element : [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //span[normalize-space()='My Account']] is clicked
+          java.lang.reflect.InvocationTargetException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'BCT-LTP-G1007', ip: '10.30.11.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d717cc81c79149d034aef5527550d80f, actions {actions=[org.openqa.selenium.interactions.Sequence@3b0c3951]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\VIJAY~1.SAN\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64312/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d717cc81c79149d034aef5527550d80f
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:14:58 pm</td>
+        <td>6:26:03 pm</td>
         <td>
-          wait for until element [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: (//a[normalize-space()='Login'])[1]] is visible
+          Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]' (tried for 10 second(s) with 500 milliseconds interval)
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:14:59 pm</td>
+        <td>6:26:13 pm</td>
         <td>
-          Click on element: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: (//a[normalize-space()='Login'])[1]]
+          Fail to clicked on Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:14:59 pm</td>
+        <td>6:26:23 pm</td>
         <td>
-          Clicked on element : [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: (//a[normalize-space()='Login'])[1]]
+          Clicked on element : Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:14:59 pm</td>
+        <td>6:26:23 pm</td>
         <td>
           navigateToLoginPage Test is passed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:14:59 pm</td>
+        <td>6:26:23 pm</td>
         <td>
-          navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null 8cf3a711-4d82-4dc4-b014-73e208f3e7cd  []
+          navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null ee76a731-a550-4e96-97dc-08441b17aaa5  []
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:14:59 pm</td>
+        <td>6:26:24 pm</td>
         <td>
           Test passed
     <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/success/navigateToLoginPage_2022_10_20_03_14_59.png' src="./screenshots/success/navigateToLoginPage_2022_10_20_03_14_59.png">
+<img data-featherlight='./screenshots/success/navigateToLoginPage_2022_10_20_06_26_23.png' src="./screenshots/success/navigateToLoginPage_2022_10_20_06_26_23.png">
     
     </div></div>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:14:59 pm</td>
+        <td>6:26:24 pm</td>
         <td>
           loginToApplication test is starting.
         </td>
@@ -170,25 +174,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="2"
+        <li class="test-item"  status="pass" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">loginToApplication</p>
             <p class="text-sm">
-              <span>3:14:59 pm</span> / <span>00:00:02:721</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>6:26:24 pm</span> / <span>00:00:04:049</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">loginToApplication</h5>
-<span class='badge badge-success'>10.20.2022 3:14:59 pm</span>
-<span class='badge badge-danger'>10.20.2022 3:15:02 pm</span>
-<span class='badge badge-default'>00:00:02:721</span>
+<h5 class="test-status text-pass">loginToApplication</h5>
+<span class='badge badge-success'>10.20.2022 6:26:24 pm</span>
+<span class='badge badge-danger'>10.20.2022 6:26:28 pm</span>
+<span class='badge badge-default'>00:00:04:049</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -201,223 +205,95 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:14:59 pm</td>
+        <td>6:26:24 pm</td>
         <td>
           deleted all cookies
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:00 pm</td>
+        <td>6:26:24 pm</td>
         <td>
-          Text in element : [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email] is cleared
+          Text in element : [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_username']] is cleared
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:00 pm</td>
+        <td>6:26:24 pm</td>
         <td>
-          Click on Text Box: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email]
+          Click on Text Box: [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_username']]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:00 pm</td>
+        <td>6:26:24 pm</td>
         <td>
-          Enter text on [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email] :dineshkumar.icon.dk@gmail.com
+          Enter text on [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:01 pm</td>
+        <td>6:26:24 pm</td>
         <td>
-          no such element: Unable to locate element: {"method":"css selector","selector":"#input\-password\ text"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'BCT-LTP-G1007', ip: '10.30.11.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5a76ccf90cf75eb57c146418a9cbe2bd, findElement {using=id, value=input-password text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\VIJAY~1.SAN\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64088/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5a76ccf90cf75eb57c146418a9cbe2bd
+          Text in element : [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_password']] is cleared
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:01 pm</td>
+        <td>6:26:24 pm</td>
         <td>
-          wait for until element [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //input[@value='Login']] is visible
+          Click on Text Box: [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_password']]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:02 pm</td>
+        <td>6:26:24 pm</td>
         <td>
-          Click on element: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //input[@value='Login']]
+          Enter text on [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //input[@id='id_password']] :Hetvi2012!
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:02 pm</td>
+        <td>6:26:24 pm</td>
         <td>
-          Retrying loginToApplication again and the count is 1
+          wait for until element [[ChromeDriver: chrome on WINDOWS (d717cc81c79149d034aef5527550d80f)] -> xpath: //body/div[@id='container']/div[@id='content']/div[1]/form[1]/div[3]/input[1]] is visible
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:02 pm</td>
+        <td>6:26:27 pm</td>
         <td>
-          loginToApplication Test is skipped
+          Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //body/div[@id='container']/div[@id='content']/div[1]/form[1]/div[3]/input[1]'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:02 pm</td>
+        <td>6:26:27 pm</td>
         <td>
-          []
+          loginToApplication Test is passed
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>3:15:02 pm</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:27 pm</td>
         <td>
-          Test Skipped
+          loginToApplication com.blazeclan.qa.test.testng.TestFramework  null a2c3a7a7-283f-4e4e-8664-e40b91fb683a  []
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:26:27 pm</td>
+        <td>
+          Test passed
     <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/skipped/loginToApplication_2022_10_20_03_15_02.png' src="./screenshots/skipped/loginToApplication_2022_10_20_03_15_02.png">
+<img data-featherlight='./screenshots/success/loginToApplication_2022_10_20_06_26_27.png' src="./screenshots/success/loginToApplication_2022_10_20_06_26_27.png">
     
     </div></div>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:02 pm</td>
-        <td>
-          loginToApplication test is starting.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="3"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">loginToApplication</p>
-            <p class="text-sm">
-              <span>3:15:02 pm</span> / <span>00:00:03:692</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">loginToApplication</h5>
-<span class='badge badge-success'>10.20.2022 3:15:02 pm</span>
-<span class='badge badge-danger'>10.20.2022 3:15:06 pm</span>
-<span class='badge badge-default'>00:00:03:692</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/failed/loginToApplication_2022_10_20_03_15_04.png' src="./screenshots/failed/loginToApplication_2022_10_20_03_15_04.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:02 pm</td>
-        <td>
-          deleted all cookies
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:02 pm</td>
-        <td>
-          Text in element : [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email] is cleared
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:02 pm</td>
-        <td>
-          Click on Text Box: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:03 pm</td>
-        <td>
-          Enter text on [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email] :dineshkumar.icon.dk@gmail.com
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:04 pm</td>
-        <td>
-          no such element: Unable to locate element: {"method":"css selector","selector":"#input\-password\ text"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'BCT-LTP-G1007', ip: '10.30.11.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5a76ccf90cf75eb57c146418a9cbe2bd, findElement {using=id, value=input-password text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\VIJAY~1.SAN\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64088/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5a76ccf90cf75eb57c146418a9cbe2bd
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:04 pm</td>
-        <td>
-          wait for until element [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //input[@value='Login']] is visible
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:04 pm</td>
-        <td>
-          Click on element: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //input[@value='Login']]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:04 pm</td>
-        <td>
-          loginToApplication Test is failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:15:04 pm</td>
-        <td>
-          Test Failed
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/failed/loginToApplication_2022_10_20_03_15_04.png' src="./screenshots/failed/loginToApplication_2022_10_20_03_15_04.png">
-    
-    </div></div>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:04 pm</td>
-        <td>
-          <span class='badge white-text red'>failed</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:15:06 pm</td>
+        <td>6:26:28 pm</td>
         <td>
           I am in onFinish method testng
         </td>
@@ -441,25 +317,25 @@ Session ID: 5a76ccf90cf75eb57c146418a9cbe2bd
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Oct 20, 2022 03:14:53 pm</h3>
+<h3>Oct 20, 2022 06:25:30 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Oct 20, 2022 03:15:06 pm</h3>
+<h3>Oct 20, 2022 06:26:28 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -475,13 +351,13 @@ Session ID: 5a76ccf90cf75eb57c146418a9cbe2bd
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='33%'>
-<b>1</b> tests passed
+<div><small data-tooltip='100%'>
+<b>2</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='33%'><b>1</b> tests failed,
-<b>1</b> skipped, <b data-tooltip='0%'>0</b> others
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
 </div>
@@ -498,10 +374,10 @@ Session ID: 5a76ccf90cf75eb57c146418a9cbe2bd
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='3%'><b>1</b> events passed</small></div>
+<div><small data-tooltip='9%'><b>2</b> events passed</small></div>
 <div>
-<small data-tooltip='3%'><b>1</b> events failed,
-<b data-tooltip='%'>29</b> others
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>19</b> others
 </small>
 </div>
 </div>
@@ -517,7 +393,7 @@ Session ID: 5a76ccf90cf75eb57c146418a9cbe2bd
 </div></div>
 <script>
 var timeline = {
-"navigateToLoginPage":1.733,"loginToApplication":2.721,"loginToApplication":3.692
+"navigateToLoginPage":50.465,"loginToApplication":4.049
 };
 </script>
 <div class="row">
@@ -560,10 +436,10 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 1,
+passParent: 2,
+failParent: 0,
 warningParent: 0,
-skipParent: 1,
+skipParent: 0,
 childCount: 5,
 passChild: 0,
 failChild: 0,
@@ -577,11 +453,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 1,
-failEvents: 1,
+passEvents: 2,
+failEvents: 0,
 warningEvents: 0,
-skipEvents: 1,
-infoEvents: 28
+skipEvents: 0,
+infoEvents: 19
 };
 </script>        </div>
       </div>

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BlazeclanAutomationFramework" />
+        <module name="ProjectAIAutomation" />
       </profile>
     </annotationProcessing>
   </component>
