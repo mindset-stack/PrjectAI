@@ -1,0 +1,47 @@
+[INFO ] 2022-10-20 15:14:53.493 [main] Log - chrome browser is selected
+[INFO ] 2022-10-20 15:14:53.909 [main] Log - Open chrome browser
+[INFO ] 2022-10-20 15:14:57.869 [main] Log - Open the urlhttps://naveenautomationlabs.com/opencart/
+[INFO ] 2022-10-20 15:14:58.227 [main] Log - navigateToLoginPage test is starting.
+[INFO ] 2022-10-20 15:14:58.598 [main] Log - move to the element : [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //span[normalize-space()='My Account']] is clicked
+[INFO ] 2022-10-20 15:14:58.713 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: (//a[normalize-space()='Login'])[1]] is visible
+[INFO ] 2022-10-20 15:14:59.470 [main] Log - Click on element: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: (//a[normalize-space()='Login'])[1]]
+[INFO ] 2022-10-20 15:14:59.489 [main] Log - Clicked on element : [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: (//a[normalize-space()='Login'])[1]]
+[INFO ] 2022-10-20 15:14:59.691 [main] Log - navigateToLoginPage Test is passed
+[INFO ] 2022-10-20 15:14:59.692 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null 8cf3a711-4d82-4dc4-b014-73e208f3e7cd  []
+[INFO ] 2022-10-20 15:14:59.964 [main] Log - loginToApplication test is starting.
+[INFO ] 2022-10-20 15:14:59.992 [main] Log - deleted all cookies
+[INFO ] 2022-10-20 15:15:00.108 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email] is cleared
+[INFO ] 2022-10-20 15:15:00.219 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email]
+[INFO ] 2022-10-20 15:15:00.377 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email] :dineshkumar.icon.dk@gmail.com
+[ERROR] 2022-10-20 15:15:01.424 [main] Log - no such element: Unable to locate element: {"method":"css selector","selector":"#input\-password\ text"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'BCT-LTP-G1007', ip: '10.30.11.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a76ccf90cf75eb57c146418a9cbe2bd, findElement {using=id, value=input-password text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\VIJAY~1.SAN\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64088/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a76ccf90cf75eb57c146418a9cbe2bd
+[INFO ] 2022-10-20 15:15:01.491 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //input[@value='Login']] is visible
+[INFO ] 2022-10-20 15:15:02.260 [main] Log - Click on element: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //input[@value='Login']]
+[INFO ] 2022-10-20 15:15:02.358 [main] Log - Retrying loginToApplication again and the count is 1
+[WARN ] 2022-10-20 15:15:02.377 [main] Log - loginToApplication Test is skipped
+[INFO ] 2022-10-20 15:15:02.378 [main] Log - []
+[INFO ] 2022-10-20 15:15:02.685 [main] Log - loginToApplication test is starting.
+[INFO ] 2022-10-20 15:15:02.738 [main] Log - deleted all cookies
+[INFO ] 2022-10-20 15:15:02.903 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email] is cleared
+[INFO ] 2022-10-20 15:15:02.993 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email]
+[INFO ] 2022-10-20 15:15:03.100 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> id: input-email] :dineshkumar.icon.dk@gmail.com
+[ERROR] 2022-10-20 15:15:04.173 [main] Log - no such element: Unable to locate element: {"method":"css selector","selector":"#input\-password\ text"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'BCT-LTP-G1007', ip: '10.30.11.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a76ccf90cf75eb57c146418a9cbe2bd, findElement {using=id, value=input-password text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\VIJAY~1.SAN\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64088/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a76ccf90cf75eb57c146418a9cbe2bd
+[INFO ] 2022-10-20 15:15:04.236 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //input[@value='Login']] is visible
+[INFO ] 2022-10-20 15:15:04.603 [main] Log - Click on element: [[ChromeDriver: chrome on WINDOWS (5a76ccf90cf75eb57c146418a9cbe2bd)] -> xpath: //input[@value='Login']]
+[ERROR] 2022-10-20 15:15:04.678 [main] Log - loginToApplication Test is failed
+[INFO ] 2022-10-20 15:15:06.378 [main] Log - I am in onFinish method testng
