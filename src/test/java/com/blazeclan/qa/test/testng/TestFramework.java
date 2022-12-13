@@ -2,6 +2,7 @@ package com.blazeclan.qa.test.testng;
 
 import com.blazeclan.qa.pages.LoginPage;
 import com.blazeclan.qa.utility.TestListener;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -58,26 +59,27 @@ public class TestFramework extends BaseTest {
 //
 
 
-    @Test(priority = 2)
+    @Test(priority = 1)
     public void navigateToLoginPage() {
-        moveAndClick(homePage.myAccount);
+      //moveAndClick(homePage.myAccount);
 
-        loginPage = (LoginPage) clickNavigateToNewPage( new LoginPage(driver),homePage.loginBtn);
+     // loginPage = (LoginPage) clickNavigateToNewPage( new LoginPage(driver),homePage.loginBtn);
+        loginPage = new LoginPage(driver);
         waitForLoading();
         String expectedUrl = "https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/";
         String actualUrl = getCurrentUrl();
         Assert.assertEquals(actualUrl, expectedUrl);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 2)
     public void loginToApplication() {
         clearAllCookies();
         enterText(loginPage.loginEmail,"premila.jina@projectai.com");
         enterText(loginPage.loginPassword, "Hetvi2012!");
         clickElement(loginPage.loginBtn);
-        addCookiesToFile("D:\\Framework\\BlazeclanAutomationFramework", "cookies");
-        waitForLoading();
-        String actualTitle = getTitle();
+       // addCookiesToFile("D:\\Framework\\BlazeclanAutomationFramework", "cookies");
+      //  waitForLoading();
+      //  String actualTitle = getTitle();
        // String expectedTitle = "My Account";
         //Assert.assertEquals(actualTitle,expectedTitle);
     }

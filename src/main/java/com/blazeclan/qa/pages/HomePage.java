@@ -16,7 +16,7 @@ public class HomePage {
     public WebElement myAccount;
     @FindBy(xpath= "(//a[normalize-space()='Register'])[1]")
     public WebElement register;
-    @FindBy(xpath = "(//a[normalize-space()='Login'])[1]")
+    @FindBy(xpath = "(//input[@type='submit']")
     public WebElement loginBtn;
 
     public HomePage(WebDriver driver) {

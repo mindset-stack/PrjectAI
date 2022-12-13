@@ -7,16 +7,18 @@ import com.blazeclan.qa.pages.LoginPage;
 import com.blazeclan.qa.pages.RegisterPage;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import java.util.Properties;
 
 public class BaseTest extends CommonFunctions {
 
     protected HomePage homePage;
     protected RegisterPage registerPage;
-    protected LoginPage loginPage;
+    public  LoginPage loginPage;
     @BeforeTest
     public void setUp() {
-        invokeApplicationURL(init_properties(IConstants.TEST_CONFIG_PATH).getProperty("BrowserName"),
-                init_properties(IConstants.TEST_CONFIG_PATH).getProperty("Url"));
+        Properties prop = init_properties(IConstants.TEST_CONFIG_PATH);
+        invokeBrowser(prop.getProperty("BrowserName"));
+        invokeApplicationURL(prop.getProperty("Url"));
         homePage = new HomePage(driver);
     }
 

@@ -17,7 +17,9 @@ public class Hooks extends CommonFunctions {
     public void setUp(Scenario scenario) {
         Hooks.scenario = scenario;
             Properties prop = init_properties(IConstants.TEST_CONFIG_PATH);
-                invokeApplicationURL(prop.getProperty("BrowserName"), prop.getProperty("Url"));
+                //invokeApplicationURL(prop.getProperty("BrowserName"), prop.getProperty("Url"));
+        invokeBrowser(prop.getProperty("BrowserName"));
+        invokeApplicationURL(prop.getProperty("Url"));
                 waitForLoading();
     }
 
