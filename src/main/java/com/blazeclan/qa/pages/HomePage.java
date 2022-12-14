@@ -19,7 +19,8 @@ public class HomePage {
     @FindBy(xpath = "(//input[@type='submit']")
     public WebElement loginBtn;
 
-    public HomePage(WebDriver driver) {
+    public HomePage(WebDriver driver)
+    {
         PageFactory.initElements(driver, this);
     }
 

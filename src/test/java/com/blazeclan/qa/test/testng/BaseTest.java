@@ -19,7 +19,7 @@ public class BaseTest extends CommonFunctions {
         Properties prop = init_properties(IConstants.TEST_CONFIG_PATH);
         invokeBrowser(prop.getProperty("BrowserName"));
         invokeApplicationURL(prop.getProperty("Url"));
-        homePage = new HomePage(driver);
+
     }
 
     @AfterTest

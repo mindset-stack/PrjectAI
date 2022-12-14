@@ -1,287 +1,40 @@
-[INFO ] 2022-12-13 11:47:13.869 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 11:47:14.356 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 11:47:21.199 [main] Log - Open the urlhttps://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 11:47:21.444 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 11:47:55.343 [main] Log - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]' (tried for 10 second(s) with 500 milliseconds interval)
-[ERROR] 2022-12-13 11:48:05.416 [main] Log - Fail to clicked on Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
-[INFO ] 2022-12-13 11:48:15.482 [main] Log - Clicked on element : Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
-[INFO ] 2022-12-13 11:49:36.517 [main] Log - navigateToLoginPage Test is passed
-[INFO ] 2022-12-13 11:49:36.517 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null 2768c464-509c-4564-b2c7-42df982b818e  []
-[INFO ] 2022-12-13 11:50:31.640 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 11:50:31.686 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 11:50:31.828 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (0663335719d36d9f39a9e9fec431c294)] -> xpath: //input[@id='id_username']] is cleared
-[INFO ] 2022-12-13 11:50:31.943 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (0663335719d36d9f39a9e9fec431c294)] -> xpath: //input[@id='id_username']]
-[INFO ] 2022-12-13 11:50:32.097 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (0663335719d36d9f39a9e9fec431c294)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
-[INFO ] 2022-12-13 11:50:32.210 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (0663335719d36d9f39a9e9fec431c294)] -> xpath: //input[@id='id_password']] is cleared
-[INFO ] 2022-12-13 11:50:32.302 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (0663335719d36d9f39a9e9fec431c294)] -> xpath: //input[@id='id_password']]
-[INFO ] 2022-12-13 11:50:32.416 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (0663335719d36d9f39a9e9fec431c294)] -> xpath: //input[@id='id_password']] :Hetvi2012!
-[INFO ] 2022-12-13 11:50:32.711 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (0663335719d36d9f39a9e9fec431c294)] -> xpath: //input[@type='submit']] is visible
-[INFO ] 2022-12-13 11:50:34.913 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
-[INFO ] 2022-12-13 11:50:34.974 [main] Log - loginToApplication Test is passed
-[INFO ] 2022-12-13 11:50:34.975 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null ff3e483b-003d-4f77-a58a-9a01fca39838  []
-[INFO ] 2022-12-13 11:50:49.740 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 12:01:04.974 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 12:01:20.056 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 12:01:52.495 [main] Log - Open the urlhttps://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 12:03:06.194 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 12:03:26.799 [main] Log - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]' (tried for 10 second(s) with 500 milliseconds interval)
-[ERROR] 2022-12-13 12:03:36.909 [main] Log - Fail to clicked on Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
-[INFO ] 2022-12-13 12:03:46.964 [main] Log - Clicked on element : Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
-[INFO ] 2022-12-13 12:03:47.451 [main] Log - navigateToLoginPage Test is passed
-[INFO ] 2022-12-13 12:03:47.452 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null 685862e9-f742-454d-af46-afc201177727  []
-[INFO ] 2022-12-13 12:03:47.791 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 12:03:47.853 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 12:03:47.987 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (a0cb2992413c81357f576fd7f6a8b306)] -> xpath: //input[@id='id_username']] is cleared
-[INFO ] 2022-12-13 12:03:48.087 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (a0cb2992413c81357f576fd7f6a8b306)] -> xpath: //input[@id='id_username']]
-[INFO ] 2022-12-13 12:03:48.478 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (a0cb2992413c81357f576fd7f6a8b306)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
-[INFO ] 2022-12-13 12:03:48.625 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (a0cb2992413c81357f576fd7f6a8b306)] -> xpath: //input[@id='id_password']] is cleared
-[INFO ] 2022-12-13 12:03:48.768 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (a0cb2992413c81357f576fd7f6a8b306)] -> xpath: //input[@id='id_password']]
-[INFO ] 2022-12-13 12:03:48.949 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (a0cb2992413c81357f576fd7f6a8b306)] -> xpath: //input[@id='id_password']] :Hetvi2012!
-[INFO ] 2022-12-13 12:03:49.461 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (a0cb2992413c81357f576fd7f6a8b306)] -> xpath: //input[@type='submit']] is visible
-[INFO ] 2022-12-13 12:03:51.701 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
-[INFO ] 2022-12-13 12:03:51.789 [main] Log - loginToApplication Test is passed
-[INFO ] 2022-12-13 12:03:51.791 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null 04eb551d-6628-4501-a1b1-891ef132d8de  []
-[INFO ] 2022-12-13 12:04:02.366 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 12:10:18.719 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 12:10:19.111 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 12:10:21.218 [main] Log - Open the urlhttps://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 12:10:21.493 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 12:10:41.694 [main] Log - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]' (tried for 10 second(s) with 500 milliseconds interval)
-[ERROR] 2022-12-13 12:10:51.743 [main] Log - Fail to clicked on Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
-[INFO ] 2022-12-13 12:11:01.804 [main] Log - Clicked on element : Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
-[INFO ] 2022-12-13 12:11:01.980 [main] Log - navigateToLoginPage Test is passed
-[INFO ] 2022-12-13 12:11:01.980 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null 094c4bc6-c60c-42d1-be0e-fc2cac6719d2  []
-[INFO ] 2022-12-13 12:11:02.196 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 12:11:02.218 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 12:11:02.302 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (096e97c4243137df4b582e9941c2f3d7)] -> xpath: //input[@id='id_username']] is cleared
-[INFO ] 2022-12-13 12:11:02.392 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (096e97c4243137df4b582e9941c2f3d7)] -> xpath: //input[@id='id_username']]
-[INFO ] 2022-12-13 12:11:02.514 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (096e97c4243137df4b582e9941c2f3d7)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
-[INFO ] 2022-12-13 12:11:02.592 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (096e97c4243137df4b582e9941c2f3d7)] -> xpath: //input[@id='id_password']] is cleared
-[INFO ] 2022-12-13 12:11:02.672 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (096e97c4243137df4b582e9941c2f3d7)] -> xpath: //input[@id='id_password']]
-[INFO ] 2022-12-13 12:11:02.762 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (096e97c4243137df4b582e9941c2f3d7)] -> xpath: //input[@id='id_password']] :Hetvi2012!
-[INFO ] 2022-12-13 12:11:02.840 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (096e97c4243137df4b582e9941c2f3d7)] -> xpath: //input[@type='submit']] is visible
-[INFO ] 2022-12-13 12:11:05.245 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
-[INFO ] 2022-12-13 12:11:05.255 [main] Log - loginToApplication Test is passed
-[INFO ] 2022-12-13 12:11:05.256 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null 3e90ecde-ecc9-472f-a67c-352673df322f  []
-[INFO ] 2022-12-13 12:11:06.691 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 12:26:21.467 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 12:26:24.519 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 12:26:31.023 [main] Log - Open the urlhttps://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 12:32:42.278 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 12:32:47.562 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 12:32:54.770 [main] Log - Open the urlhttps://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 13:01:27.683 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 13:01:48.225 [main] Log - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]' (tried for 10 second(s) with 500 milliseconds interval)
-[ERROR] 2022-12-13 13:01:58.275 [main] Log - Fail to clicked on Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
-[INFO ] 2022-12-13 13:02:08.336 [main] Log - Clicked on element : Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space()='Login'])[1]'
-[INFO ] 2022-12-13 13:02:08.920 [main] Log - navigateToLoginPage Test is passed
-[INFO ] 2022-12-13 13:02:08.921 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null ac940e4c-99b7-42e1-8c38-c8433f0a23ea  []
-[INFO ] 2022-12-13 13:02:09.454 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 13:02:09.527 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 13:02:09.627 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (8a8f03677ee4d3060bdd6d9754657a99)] -> xpath: //input[@id='id_username']] is cleared
-[INFO ] 2022-12-13 13:02:09.726 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (8a8f03677ee4d3060bdd6d9754657a99)] -> xpath: //input[@id='id_username']]
-[INFO ] 2022-12-13 13:02:09.837 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (8a8f03677ee4d3060bdd6d9754657a99)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
-[INFO ] 2022-12-13 13:02:09.966 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (8a8f03677ee4d3060bdd6d9754657a99)] -> xpath: //input[@id='id_password']] is cleared
-[INFO ] 2022-12-13 13:02:10.053 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (8a8f03677ee4d3060bdd6d9754657a99)] -> xpath: //input[@id='id_password']]
-[INFO ] 2022-12-13 13:02:10.162 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (8a8f03677ee4d3060bdd6d9754657a99)] -> xpath: //input[@id='id_password']] :Hetvi2012!
-[INFO ] 2022-12-13 13:02:10.426 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (8a8f03677ee4d3060bdd6d9754657a99)] -> xpath: //input[@type='submit']] is visible
-[INFO ] 2022-12-13 13:02:12.985 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
-[INFO ] 2022-12-13 13:02:13.001 [main] Log - loginToApplication Test is passed
-[INFO ] 2022-12-13 13:02:13.002 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null 3adf31c7-c5dc-4a6e-b76c-1edb9bde9d2a  []
-[INFO ] 2022-12-13 13:02:14.651 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 13:35:44.211 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 13:35:44.477 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 13:35:44.602 [main] Log - window is maximized
-[INFO ] 2022-12-13 13:35:52.936 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 13:35:53.011 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 13:35:54.125 [main] Log - Retrying navigateToLoginPage again and the count is 1
-[WARN ] 2022-12-13 13:35:54.198 [main] Log - navigateToLoginPage Test is skipped
-[INFO ] 2022-12-13 13:35:54.201 [main] Log - []
-[INFO ] 2022-12-13 13:35:54.413 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 13:35:55.484 [main] Log - navigateToLoginPage Test is failed
-[INFO ] 2022-12-13 13:35:55.659 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 13:35:55.677 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 13:35:55.678 [main] Log - Retrying loginToApplication again and the count is 1
-[WARN ] 2022-12-13 13:35:55.687 [main] Log - loginToApplication Test is skipped
-[INFO ] 2022-12-13 13:35:55.688 [main] Log - []
-[INFO ] 2022-12-13 13:35:55.845 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 13:35:55.853 [main] Log - deleted all cookies
-[ERROR] 2022-12-13 13:35:55.860 [main] Log - loginToApplication Test is failed
-[INFO ] 2022-12-13 13:35:57.228 [main] Log - browser closed
-[INFO ] 2022-12-13 13:35:57.246 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 14:48:59.277 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 14:48:59.500 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 14:48:59.630 [main] Log - window is maximized
-[INFO ] 2022-12-13 14:49:05.311 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 14:49:05.365 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 14:49:06.470 [main] Log - Retrying navigateToLoginPage again and the count is 1
-[WARN ] 2022-12-13 14:49:06.534 [main] Log - navigateToLoginPage Test is skipped
-[INFO ] 2022-12-13 14:49:06.534 [main] Log - []
-[INFO ] 2022-12-13 14:49:06.694 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 14:49:07.775 [main] Log - navigateToLoginPage Test is failed
-[INFO ] 2022-12-13 14:49:07.961 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 14:49:07.982 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 14:49:07.983 [main] Log - Retrying loginToApplication again and the count is 1
-[WARN ] 2022-12-13 14:49:07.996 [main] Log - loginToApplication Test is skipped
-[INFO ] 2022-12-13 14:49:07.996 [main] Log - []
-[INFO ] 2022-12-13 14:49:08.186 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 14:49:08.192 [main] Log - deleted all cookies
-[ERROR] 2022-12-13 14:49:08.203 [main] Log - loginToApplication Test is failed
-[INFO ] 2022-12-13 14:49:09.575 [main] Log - browser closed
-[INFO ] 2022-12-13 14:49:09.602 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 15:08:09.876 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 15:08:10.132 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 15:08:10.252 [main] Log - window is maximized
-[INFO ] 2022-12-13 15:08:16.729 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 15:08:16.782 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 15:08:16.882 [main] Log - navigateToLoginPage Test is passed
-[INFO ] 2022-12-13 15:08:16.886 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null 43661c2e-a737-48e8-b16e-ae6bb9691545  []
-[INFO ] 2022-12-13 15:08:17.044 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:08:17.062 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 15:08:17.064 [main] Log - Retrying loginToApplication again and the count is 1
-[WARN ] 2022-12-13 15:08:17.073 [main] Log - loginToApplication Test is skipped
-[INFO ] 2022-12-13 15:08:17.074 [main] Log - []
-[INFO ] 2022-12-13 15:08:17.212 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:08:17.219 [main] Log - deleted all cookies
-[ERROR] 2022-12-13 15:08:17.230 [main] Log - loginToApplication Test is failed
-[INFO ] 2022-12-13 15:08:18.068 [main] Log - browser closed
-[INFO ] 2022-12-13 15:08:18.096 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 15:18:34.554 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 15:18:34.867 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 15:18:34.993 [main] Log - window is maximized
-[INFO ] 2022-12-13 15:18:40.460 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 15:18:40.511 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 15:18:40.595 [main] Log - navigateToLoginPage Test is passed
-[INFO ] 2022-12-13 15:18:40.598 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null 08f07e4d-70a4-4d35-b9a6-3400eb8383ea  []
-[INFO ] 2022-12-13 15:18:40.753 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:18:40.923 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 15:18:40.925 [main] Log - Retrying loginToApplication again and the count is 1
-[WARN ] 2022-12-13 15:18:40.934 [main] Log - loginToApplication Test is skipped
-[INFO ] 2022-12-13 15:18:40.934 [main] Log - []
-[INFO ] 2022-12-13 15:18:41.075 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:18:41.082 [main] Log - deleted all cookies
-[ERROR] 2022-12-13 15:18:41.091 [main] Log - loginToApplication Test is failed
-[INFO ] 2022-12-13 15:18:41.916 [main] Log - browser closed
-[INFO ] 2022-12-13 15:18:41.932 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 15:26:12.203 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 15:26:12.423 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 15:26:12.541 [main] Log - window is maximized
-[INFO ] 2022-12-13 15:26:19.640 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 15:26:19.688 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 15:26:20.791 [main] Log - Retrying navigateToLoginPage again and the count is 1
-[WARN ] 2022-12-13 15:26:20.878 [main] Log - navigateToLoginPage Test is skipped
-[INFO ] 2022-12-13 15:26:20.879 [main] Log - []
-[INFO ] 2022-12-13 15:26:21.038 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 15:26:22.129 [main] Log - navigateToLoginPage Test is failed
-[INFO ] 2022-12-13 15:26:22.280 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:26:22.297 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 15:26:22.298 [main] Log - Retrying loginToApplication again and the count is 1
-[WARN ] 2022-12-13 15:26:22.306 [main] Log - loginToApplication Test is skipped
-[INFO ] 2022-12-13 15:26:22.306 [main] Log - []
-[INFO ] 2022-12-13 15:26:22.446 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:26:22.452 [main] Log - deleted all cookies
-[ERROR] 2022-12-13 15:26:22.460 [main] Log - loginToApplication Test is failed
-[INFO ] 2022-12-13 15:26:23.540 [main] Log - browser closed
-[INFO ] 2022-12-13 15:26:23.559 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 15:28:55.671 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 15:28:55.965 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 15:28:56.094 [main] Log - window is maximized
-[INFO ] 2022-12-13 15:28:59.258 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 15:28:59.301 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 15:28:59.331 [main] Log - Retrying navigateToLoginPage again and the count is 1
-[WARN ] 2022-12-13 15:28:59.401 [main] Log - navigateToLoginPage Test is skipped
-[INFO ] 2022-12-13 15:28:59.402 [main] Log - []
-[INFO ] 2022-12-13 15:28:59.563 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 15:28:59.577 [main] Log - navigateToLoginPage Test is failed
-[INFO ] 2022-12-13 15:28:59.751 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:28:59.769 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 15:28:59.770 [main] Log - Retrying loginToApplication again and the count is 1
-[WARN ] 2022-12-13 15:28:59.776 [main] Log - loginToApplication Test is skipped
-[INFO ] 2022-12-13 15:28:59.777 [main] Log - []
-[INFO ] 2022-12-13 15:28:59.932 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:28:59.941 [main] Log - deleted all cookies
-[ERROR] 2022-12-13 15:28:59.949 [main] Log - loginToApplication Test is failed
-[INFO ] 2022-12-13 15:29:00.883 [main] Log - browser closed
-[INFO ] 2022-12-13 15:29:00.916 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 15:30:30.996 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 15:30:31.232 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 15:30:31.359 [main] Log - window is maximized
-[INFO ] 2022-12-13 15:30:33.687 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 15:30:33.737 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 15:30:34.840 [main] Log - Retrying navigateToLoginPage again and the count is 1
-[WARN ] 2022-12-13 15:30:34.918 [main] Log - navigateToLoginPage Test is skipped
-[INFO ] 2022-12-13 15:30:34.919 [main] Log - []
-[INFO ] 2022-12-13 15:30:35.111 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 15:30:36.167 [main] Log - navigateToLoginPage Test is failed
-[INFO ] 2022-12-13 15:30:36.304 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:30:36.319 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 15:30:36.319 [main] Log - Retrying loginToApplication again and the count is 1
-[WARN ] 2022-12-13 15:30:36.326 [main] Log - loginToApplication Test is skipped
-[INFO ] 2022-12-13 15:30:36.327 [main] Log - []
-[INFO ] 2022-12-13 15:30:36.472 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:30:36.481 [main] Log - deleted all cookies
-[ERROR] 2022-12-13 15:30:36.488 [main] Log - loginToApplication Test is failed
-[INFO ] 2022-12-13 15:30:37.512 [main] Log - browser closed
-[INFO ] 2022-12-13 15:30:37.529 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 15:36:39.931 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 15:36:40.200 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 15:36:40.325 [main] Log - window is maximized
-[INFO ] 2022-12-13 15:36:48.344 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 15:36:48.402 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 15:36:48.461 [main] Log - Retrying navigateToLoginPage again and the count is 1
-[WARN ] 2022-12-13 15:36:48.561 [main] Log - navigateToLoginPage Test is skipped
-[INFO ] 2022-12-13 15:36:48.562 [main] Log - []
-[INFO ] 2022-12-13 15:36:48.756 [main] Log - navigateToLoginPage test is starting.
-[ERROR] 2022-12-13 15:36:48.794 [main] Log - navigateToLoginPage Test is failed
-[INFO ] 2022-12-13 15:36:48.959 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:36:49.018 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 15:36:49.020 [main] Log - Retrying loginToApplication again and the count is 1
-[WARN ] 2022-12-13 15:36:49.027 [main] Log - loginToApplication Test is skipped
-[INFO ] 2022-12-13 15:36:49.027 [main] Log - []
-[INFO ] 2022-12-13 15:36:49.171 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:36:49.179 [main] Log - deleted all cookies
-[ERROR] 2022-12-13 15:36:49.187 [main] Log - loginToApplication Test is failed
-[INFO ] 2022-12-13 15:36:50.026 [main] Log - browser closed
-[INFO ] 2022-12-13 15:36:50.098 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 15:40:54.804 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 15:40:55.040 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 15:40:55.159 [main] Log - window is maximized
-[INFO ] 2022-12-13 15:40:59.150 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 15:40:59.201 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 15:40:59.302 [main] Log - navigateToLoginPage Test is passed
-[INFO ] 2022-12-13 15:40:59.313 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null bc251963-05d6-4e00-a0b8-fe57cf50aa3a  []
-[INFO ] 2022-12-13 15:40:59.468 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:40:59.484 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 15:40:59.542 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (7c51a12da8fef956fdd399ae31b55712)] -> xpath: //input[@id='id_username']] is cleared
-[INFO ] 2022-12-13 15:40:59.594 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (7c51a12da8fef956fdd399ae31b55712)] -> xpath: //input[@id='id_username']]
-[INFO ] 2022-12-13 15:40:59.661 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (7c51a12da8fef956fdd399ae31b55712)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
-[INFO ] 2022-12-13 15:40:59.706 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (7c51a12da8fef956fdd399ae31b55712)] -> xpath: //input[@id='id_password']] is cleared
-[INFO ] 2022-12-13 15:40:59.761 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (7c51a12da8fef956fdd399ae31b55712)] -> xpath: //input[@id='id_password']]
-[INFO ] 2022-12-13 15:40:59.816 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (7c51a12da8fef956fdd399ae31b55712)] -> xpath: //input[@id='id_password']] :Hetvi2012!
-[INFO ] 2022-12-13 15:40:59.866 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (7c51a12da8fef956fdd399ae31b55712)] -> xpath: //input[@type='submit']] is visible
-[INFO ] 2022-12-13 15:41:01.255 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
-[INFO ] 2022-12-13 15:41:01.263 [main] Log - loginToApplication Test is passed
-[INFO ] 2022-12-13 15:41:01.263 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null a8276ba4-f5e2-4833-b1a2-6936f12ff42b  []
-[INFO ] 2022-12-13 15:41:02.086 [main] Log - browser closed
-[INFO ] 2022-12-13 15:41:02.158 [main] Log - I am in onFinish method testng
-[INFO ] 2022-12-13 15:45:29.656 [main] Log - chrome browser is selected
-[INFO ] 2022-12-13 15:45:30.071 [main] Log - Open chrome browser
-[INFO ] 2022-12-13 15:45:30.201 [main] Log - window is maximized
-[INFO ] 2022-12-13 15:45:35.374 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
-[INFO ] 2022-12-13 15:45:35.432 [main] Log - navigateToLoginPage test is starting.
-[INFO ] 2022-12-13 15:45:35.557 [main] Log - navigateToLoginPage Test is passed
-[INFO ] 2022-12-13 15:45:35.562 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null 81bef781-d140-42f2-99af-a65f101fda4e  []
-[INFO ] 2022-12-13 15:45:35.722 [main] Log - loginToApplication test is starting.
-[INFO ] 2022-12-13 15:45:35.753 [main] Log - deleted all cookies
-[INFO ] 2022-12-13 15:45:35.806 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (2f886a6fafe3b6ccf51964c59f2649db)] -> xpath: //input[@id='id_username']] is cleared
-[INFO ] 2022-12-13 15:45:35.856 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (2f886a6fafe3b6ccf51964c59f2649db)] -> xpath: //input[@id='id_username']]
-[INFO ] 2022-12-13 15:45:35.915 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (2f886a6fafe3b6ccf51964c59f2649db)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
-[INFO ] 2022-12-13 15:45:35.956 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (2f886a6fafe3b6ccf51964c59f2649db)] -> xpath: //input[@id='id_password']] is cleared
-[INFO ] 2022-12-13 15:45:36.018 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (2f886a6fafe3b6ccf51964c59f2649db)] -> xpath: //input[@id='id_password']]
-[INFO ] 2022-12-13 15:45:36.079 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (2f886a6fafe3b6ccf51964c59f2649db)] -> xpath: //input[@id='id_password']] :Hetvi2012!
-[INFO ] 2022-12-13 15:45:36.130 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (2f886a6fafe3b6ccf51964c59f2649db)] -> xpath: //input[@type='submit']] is visible
-[INFO ] 2022-12-13 15:45:37.486 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
-[INFO ] 2022-12-13 15:45:37.495 [main] Log - loginToApplication Test is passed
-[INFO ] 2022-12-13 15:45:37.496 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null 5cb43417-b1d6-4be2-889c-599197c8ef8f  []
-[INFO ] 2022-12-13 15:45:38.257 [main] Log - browser closed
-[INFO ] 2022-12-13 15:45:38.277 [main] Log - I am in onFinish method testng
+[INFO ] 2022-12-14 13:22:21.590 [main] Log - chrome browser is selected
+[INFO ] 2022-12-14 13:22:21.995 [main] Log - Open chrome browser
+[INFO ] 2022-12-14 13:22:22.128 [main] Log - window is maximized
+[INFO ] 2022-12-14 13:22:27.962 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
+[INFO ] 2022-12-14 13:22:28.002 [main] Log - navigateToLoginPage test is starting.
+[INFO ] 2022-12-14 13:22:28.118 [main] Log - navigateToLoginPage Test is passed
+[INFO ] 2022-12-14 13:22:28.122 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null a26b7a02-47d5-4e40-a32a-b7b9731d654d  []
+[INFO ] 2022-12-14 13:22:28.285 [main] Log - loginToApplication test is starting.
+[INFO ] 2022-12-14 13:22:28.350 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (bf7d0d6bef11ed005bd17cdc147c3c23)] -> xpath: //input[@id='id_username']] is cleared
+[INFO ] 2022-12-14 13:22:28.400 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (bf7d0d6bef11ed005bd17cdc147c3c23)] -> xpath: //input[@id='id_username']]
+[INFO ] 2022-12-14 13:22:28.466 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (bf7d0d6bef11ed005bd17cdc147c3c23)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
+[INFO ] 2022-12-14 13:22:28.509 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (bf7d0d6bef11ed005bd17cdc147c3c23)] -> xpath: //input[@id='id_password']] is cleared
+[INFO ] 2022-12-14 13:22:28.554 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (bf7d0d6bef11ed005bd17cdc147c3c23)] -> xpath: //input[@id='id_password']]
+[INFO ] 2022-12-14 13:22:28.606 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (bf7d0d6bef11ed005bd17cdc147c3c23)] -> xpath: //input[@id='id_password']] :Hetvi2012!
+[INFO ] 2022-12-14 13:22:28.654 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (bf7d0d6bef11ed005bd17cdc147c3c23)] -> xpath: //input[@type='submit']] is visible
+[INFO ] 2022-12-14 13:22:32.823 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
+[INFO ] 2022-12-14 13:22:32.831 [main] Log - loginToApplication Test is passed
+[INFO ] 2022-12-14 13:22:32.832 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null 570a7ae0-4012-4f97-8bf2-7348464eea42  []
+[INFO ] 2022-12-14 13:22:33.775 [main] Log - browser closed
+[INFO ] 2022-12-14 13:22:33.809 [main] Log - I am in onFinish method testng
+[INFO ] 2022-12-14 13:30:07.037 [main] Log - chrome browser is selected
+[INFO ] 2022-12-14 13:30:07.461 [main] Log - Open chrome browser
+[INFO ] 2022-12-14 13:30:07.585 [main] Log - window is maximized
+[INFO ] 2022-12-14 13:30:12.978 [main] Log - Open the url : https://pulse-stage.projectai.com/en/admin/login/?next=/en/admin/
+[INFO ] 2022-12-14 13:30:13.017 [main] Log - navigateToLoginPage test is starting.
+[INFO ] 2022-12-14 13:30:13.133 [main] Log - navigateToLoginPage Test is passed
+[INFO ] 2022-12-14 13:30:13.136 [main] Log - navigateToLoginPage com.blazeclan.qa.test.testng.TestFramework  null e5039f98-29d6-4b69-afe2-7b4de6d845dc  []
+[INFO ] 2022-12-14 13:30:13.323 [main] Log - loginToApplication test is starting.
+[INFO ] 2022-12-14 13:30:13.379 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (3f53beb236eb51bce47b8add0292e14d)] -> xpath: //input[@id='id_username']] is cleared
+[INFO ] 2022-12-14 13:30:13.424 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (3f53beb236eb51bce47b8add0292e14d)] -> xpath: //input[@id='id_username']]
+[INFO ] 2022-12-14 13:30:13.487 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (3f53beb236eb51bce47b8add0292e14d)] -> xpath: //input[@id='id_username']] :premila.jina@projectai.com
+[INFO ] 2022-12-14 13:30:13.529 [main] Log - Text in element : [[ChromeDriver: chrome on WINDOWS (3f53beb236eb51bce47b8add0292e14d)] -> xpath: //input[@id='id_password']] is cleared
+[INFO ] 2022-12-14 13:30:13.587 [main] Log - Click on Text Box: [[ChromeDriver: chrome on WINDOWS (3f53beb236eb51bce47b8add0292e14d)] -> xpath: //input[@id='id_password']]
+[INFO ] 2022-12-14 13:30:13.644 [main] Log - Enter text on [[ChromeDriver: chrome on WINDOWS (3f53beb236eb51bce47b8add0292e14d)] -> xpath: //input[@id='id_password']] :Hetvi2012!
+[INFO ] 2022-12-14 13:30:13.693 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (3f53beb236eb51bce47b8add0292e14d)] -> xpath: //input[@type='submit']] is visible
+[INFO ] 2022-12-14 13:30:18.233 [main] Log - Click on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
+[INFO ] 2022-12-14 13:30:18.243 [main] Log - loginToApplication Test is passed
+[INFO ] 2022-12-14 13:30:18.243 [main] Log - loginToApplication com.blazeclan.qa.test.testng.TestFramework  null 0c3df38a-07b6-4821-9dfd-97e1a107cbde  []
+[INFO ] 2022-12-14 13:30:19.994 [main] Log - browser closed
+[INFO ] 2022-12-14 13:30:20.224 [main] Log - I am in onFinish method testng
